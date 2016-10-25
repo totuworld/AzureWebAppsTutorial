@@ -1,9 +1,9 @@
 {
   "name": "AzureWebAppsTutorialApplication",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node server.js"
   },
   "engines": {
     "node": "4.x.x"
@@ -15,6 +15,9 @@
     "express": "^4.13.4",
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
+    "mysql": "^2.11.1",
+    "sequelize": "^3.24.5",
+    "serve-favicon": "~2.3.0",
+    "tedious": "^1.14.0"
   }
 }

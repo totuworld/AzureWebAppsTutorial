@@ -1,0 +1,35 @@
+{
+    "development": {
+        "host":"dbhost",
+        "port": 1433,
+        "dialect": "mssql",
+        "username": "username",
+        "password": "password",
+        "dialectOptions":{
+            "encrypt": true,
+            "database":"test"
+        }
+    },
+    "devMySQL": {
+        "host":"dbhost",
+        "port": 3306,
+        "dialect": "mysql",
+        "username": "username",
+        "password": "password",
+        "dialectOptions":{
+            "encrypt": true,
+            "database":"test"
+        }
+    },
+    "production": {
+        "host":"dbhost",
+        "port": 1433,
+        "dialect": "mssql",
+        "username": "username",
+        "password": "password",
+        "dialectOptions":{
+            "encrypt": true,
+            "database":"test"
+        }
+    }
+}
